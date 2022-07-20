@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20px arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`Olá <strong>${nome}</strong> Seu nome tem ${nome.length} letras.<br> `)
+        document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}<br>`)
+        document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}`)
+
+        // document.write() imprime na tela do navegador
+
+        // Formatação de número
+        /*
+        var n1 = 1543.5
+        n1.toFixed(2)
+
+        Localizando e transfomando para moeda
+        n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+
+        para transformar ponto em virgula se usa o .repalce('.', ',')
+        */
+    </script>
+</body>
+</html>
