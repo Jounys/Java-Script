@@ -1,0 +1,16 @@
+Condições
+
+    Tipos de condição
+
+        Simples:
+        if (){ 
+            
+        }
+
+        e
+        Composta:
+        if (){
+
+        } else {
+
+        }
