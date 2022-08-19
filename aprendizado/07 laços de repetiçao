@@ -1,0 +1,29 @@
+Laços de repetição
+
+    while (condição){
+
+    }
+      Estrutura de repetição com teste lógico no início
+
+     do {
+
+     } while (condição){
+
+     }
+     
+      Estrutura de repetição com teste lógico no final
+      while quer dizer 'enquanto' vai repetir ate não ser mais verdade e finalizar 
+
+    Estrutura de repetiçao com variavel de controle
+
+      for (inicio ; teste ; incr){
+
+      }
+
+      Ex:
+
+      for (var c=1;c<=10;c++){
+
+      }
+
+      Obs: pode colocar qualquer Estrutura dentro do for
