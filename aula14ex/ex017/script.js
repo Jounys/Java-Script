@@ -12,7 +12,7 @@ function tabuada(){
             let item = document.createElement('option') // Parte do HTML
             item.text = `${n} x ${c} = ${n*c}`
             item.value = `tab${c}`                      // útil para outras linguagens
-            tab.appendChild(item)                       // Parte do HTML
+            tab.appendChild(item)                       // Parte do HTML 
             c++
         }
     }
